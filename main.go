@@ -13,7 +13,7 @@ import (
 func main() {
 	clear_terminal()
 	args := os.Args[1:]
-	rotations := 100
+	rotations := 50
 	pluck_results(args, rotations)
 }
 
